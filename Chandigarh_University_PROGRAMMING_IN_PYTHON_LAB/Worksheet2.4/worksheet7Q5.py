@@ -13,7 +13,7 @@ def isFound(tup,element):
 
 collection = ((2,75,45,96,15),(1,2,4,9,8,3,7),(67,81,34,97,91),(12,76,18,43,63))
 
-number = int(input("Enter number to remove from tuple of tuples :"))
+number = int(input("Enter number to check whether it is present or not from tuple of tuples :"))
 
 if(isFound(collection,number)):
     print("Number found !!! ")
